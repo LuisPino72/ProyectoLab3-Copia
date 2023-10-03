@@ -1,0 +1,177 @@
+@keyframes pulsate {
+  0% {
+    transform: scale(1);
+    transform-origin: center center;
+    animation-timing-function: ease-out;
+  }
+  10% {
+    transform: scale(0.91);
+    animation-timing-function: ease-in;
+  }
+  17% {
+    transform: scale(0.98);
+    animation-timing-function: ease-out;
+  }
+  33% {
+    transform: scale(0.87);
+    animation-timing-function: ease-in;
+  }
+  45% {
+    transform: scale(1);
+    animation-timing-function: ease-out;
+  }
+}
+.frame-child,
+.frame-item {
+  position: relative;
+  border-radius: var(--br-23xl);
+  background-color: var(--color-honeydew);
+  width: 48.72px;
+  height: 5px;
+}
+.frame-item {
+  width: 69.02px;
+}
+.rectangle-parent6,
+.rectangle-parent7 {
+  position: absolute;
+  top: 49px;
+  width: 69.02px;
+  height: 17px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-6xs);
+}
+.rectangle-parent6 {
+  left: 0;
+  padding: var(--padding-0) 0.0000762939453125px var(--padding-0)
+    var(--padding-0);
+  box-sizing: border-box;
+  align-items: flex-end;
+}
+.rectangle-parent7 {
+  left: 394.98px;
+  align-items: flex-start;
+}
+.servicios7 {
+  position: absolute;
+  top: 0;
+  left: 48.05px;
+  line-height: 130%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 367.91px;
+  height: 81.86px;
+  font-size: 60px;
+}
+.frame-group {
+  position: relative;
+  width: 464px;
+  height: 81.86px;
+}
+.texto-servicio {
+  width: 476.03px;
+  height: 85.69px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.transaccion-icon {
+  position: relative;
+  width: 370.62px;
+  height: 308.2px;
+  object-fit: cover;
+}
+.transacciones-en-linea {
+  position: relative;
+  line-height: 130%;
+}
+.texto {
+  background-color: #024f4f;
+  color: white;
+  width: 371px;
+  height: 63px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.conversion,
+.transacciones {
+  width: 402.68px;
+  height: 407.19px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.conversion:hover,
+.seguridad:hover,
+.transacciones:hover {
+  animation: 1s ease 0s infinite normal none pulsate;
+  opacity: 1;
+}
+.conversion {
+  width: 399.45px;
+  height: 388.56px;
+}
+.almacenar-monedas-internaciona {
+  position: relative;
+  line-height: 130%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 405px;
+  height: 67px;
+  flex-shrink: 0;
+}
+.seguridad {
+  width: 402.68px;
+  height: 407.19px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.transferencias-de-saldo {
+  position: relative;
+  line-height: 130%;
+  justify-content: center;
+  width: 370px;
+  height: 67px;
+  flex-shrink: 0;
+}
+.lista,
+.servicio,
+.transferencias-de-saldo {
+  display: flex;
+  align-items: center;
+}
+.lista {
+  width: 1366px;
+  height: 856.38px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: var(--gap-8xs);
+  font-size: var(--font-size-2xl);
+}
+.servicio {
+  position: absolute;
+  top: 2450px;
+  left: calc(50% - 681px);
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-23xl);
+  text-align: center;
+  font-size: var(--font-size-41xl);
+  color: black;
+  font-weight: 500;
+  letter-spacing: 2px;
+  font-family: "Montserrat Alternatives", sans-serif;
+}

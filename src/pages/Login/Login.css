@@ -1,0 +1,227 @@
+@import url("../../App.css");
+
+.login-container {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  height: 100vh;
+  align-items: center;
+  background-image: url("/src/images/chicauniversitariaquetrabajacomputadoraportatildespueslecciones-1@2x.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: auto;
+}
+
+.header-login {
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  background-color: white;
+  position: sticky;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.header-login > img {
+  display: flex;
+  position: relative;
+  left: -40%;
+  align-items: center;
+  justify-content: center;
+  top: -10px;
+}
+
+.login-item {
+  width: 500px;
+  height: 5px;
+ 
+}
+
+.logo-1 {
+  z-index: 2;
+  position: absolute;
+  object-fit: cover;
+  padding-top: 30px;
+  padding-left: 20px;
+}
+
+.login-form {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  flex-direction: column;
+  width: 300px;
+  text-align: center;
+  margin-top: 100px; 
+  margin-left: 100px; 
+  position: relative;
+  display: flex;
+  left: -30%;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+  width: 615px;
+  height: 650px;
+  background-image: url("src/images/fondo-login.png");
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.4);
+  border-radius: 30px;
+}
+
+.title-Login {
+  justify-content: center;
+  align-items: center;
+  color: #056061;
+  text-align: center;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+  padding-bottom: 10px;
+}
+
+.subtitle-Login {
+  display: flex;
+  align-items: center;
+  color: black;
+  text-align: center;
+  font-size: 19px;
+  font-family: "Montserrat Alternates";
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+.barra1{
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding-bottom: 10px ;
+}
+
+.barra2{
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding-bottom: 25px ;
+}
+
+
+.barra1 img {
+  position: absolute;
+  height: 60.5px;
+  left: 2px;
+  top: 2.2px;
+  background-color: var(--verde-oscuro);
+  border-radius: 5px;
+  padding: 10px;
+}
+.barra2 img {
+  position: absolute;
+  height: 60.5px;
+  left: 2px;
+  top: 2.2px;
+  background-color: var(--verde-oscuro);
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.cuadrito1,
+.cuadrito2 {
+  display: flex;
+  border: 2px solid #49beb6;
+  padding-left: 70px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6px;
+  height: 65px;
+  width: 480px;
+  font-weight: bold;
+}
+
+.cuadrito1::focus,
+.cuadrito2::focus {
+  border-color: var(--verde-oscuro);
+}
+
+input[type="email"],
+input[type="password"] {
+  color: white;
+  font-family: "Montserrat Alternates";
+  font-size: 16px;
+}
+
+button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  height: 54px;
+  background-color: #056061;
+  border-radius: 12px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 25px;
+  font-family: "Montserrat Alternates";
+  color: #fff;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #024f4f;
+}
+
+.error-message {
+  color: #ff0000;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.primera-Login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  text-align: center;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 600;
+  padding-bottom: 5px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.olvido-Login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 15px;
+  color: black;
+  text-align: center;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 600;
+  padding-bottom: 50px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.link{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  top: 20px;
+}

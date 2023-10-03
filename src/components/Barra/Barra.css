@@ -1,0 +1,84 @@
+.logo-icon10 {
+    position: relative;
+    height: 45px;
+    object-fit: cover;
+    mix-blend-mode: normal;
+    padding-left:  20px;
+  }
+
+  .un-aliado-de9 {
+    font-size: var(--subtitulo-size);
+    font-family: var(--subtitulo);
+    text-align: right;
+  }
+  .titulo {
+    width: 763px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .contacto2,
+  .nosotros,
+  .servicios6 {
+    position: relative;
+    line-height: 130%;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 133px;
+    height: 51px;
+    flex-shrink: 0;
+    cursor: pointer;
+  }
+  .contacto2,
+  .servicios6 {
+    width: 106.25px;
+    height: 26.92px;
+  }
+  .contacto2 {
+    width: 107.67px;
+  }
+  .barra-superior,
+  .opciones {
+    display: flex;
+    flex-direction: row;
+  }
+  .opciones {
+    width: 406px;
+    height: 77px;
+    align-items: center;
+    justify-content: flex-end;
+    gap: var(--gap-sm);
+    font-size: var(--font-size-3xl);
+    font-family: var(--font-montserrat-alternates);
+  }
+  .barra-superior {
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    background-color: white;
+    position: sticky;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+
+  .barra-superior > img {
+    display: flex;
+    position: relative;
+    left: -40%;
+    align-items: center;
+    justify-content: center;
+    top: -10px;
+  }
+
+  .logo-1 {
+    z-index: 2;
+    position: absolute;
+    object-fit: cover;
+    padding-top: 30px;
+    padding-left: 20px;
+  }

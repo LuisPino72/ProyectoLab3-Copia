@@ -1,0 +1,149 @@
+.queremos-ser-la,
+.quines-somos {
+  position: absolute;
+  line-height: 100%;
+  display: flex;
+  align-items: center;
+}
+.quines-somos {
+  width: 100%;
+  left: 650px;
+  font-size: 60px;
+  height: 42.5px;
+  color: black;
+  padding-bottom: 100px;
+  font-weight: 500;
+  line-height: 150%;
+  top: -16px;
+}
+.queremos-ser-la {
+  position: absolute;
+  top: calc(53% - 160.5px);
+  right: 0;
+  padding: 10px;
+  margin-right: 8%;
+  line-height: 150%;
+  align-items: center;
+  display: flex;
+  width: 800px;
+  height: 116.38px;
+  color: black;
+  font-size: 20px;
+}
+
+.brindar-a-los {
+  margin: 0;
+  color: black;
+}
+
+.brindar-a-los-container {
+  position: absolute;
+  top: calc(70% + 43px);
+  padding-left: 39px;
+  line-height: 150%;
+  display: flex;
+  align-items: center;
+  width: 930px;
+  height: 440.21px;
+  font-size: 20px;
+}
+
+.mask-group-icon3 {
+  position: absolute;
+  top: calc(50% - 4.66px);
+  left: 975px;
+  width: 800px;
+  height: 610px;
+  object-fit: cover;
+  margin-top: 6%;
+}
+.somos-una-institucin {
+  position: absolute;
+  top: calc(50% - 349.75px);
+  right: 0;
+  padding: 10px;
+  margin-right: 8%;
+  line-height: 150%;
+  display: flex;
+  align-items: center;
+  width: 800px;
+  height: 116.38px;
+  color: black;
+  font-size: 20px;
+}
+.mask-group-icon4 {
+  position: absolute;
+  top: calc(50% - 391.24px);
+  left: 30px;
+  width: 900px;
+  object-fit: cover;
+}
+.ellipse-div,
+.informacion-child,
+.informacion-child1,
+.informacion-inner,
+.informacion-item {
+  position: absolute;
+  top: calc(50% + 40.88px);
+  left: 32.98px;
+  border-radius: 50%;
+  background-color: var(--color-darkslategray-200);
+  width: 6.96px;
+  height: 7.08px;
+}
+.ellipse-div,
+.informacion-child1,
+.informacion-inner,
+.informacion-item {
+  top: calc(50% + 132.97px);
+}
+.ellipse-div,
+.informacion-child1,
+.informacion-inner {
+  top: calc(50% + 227.09px);
+}
+.ellipse-div,
+.informacion-child1 {
+  top: calc(50% + 319.18px);
+}
+.informacion-child1 {
+  top: calc(50% + 412.28px);
+}
+
+.misin,
+.objetivos,
+.visin {
+  position: absolute;
+  top: calc(65% - 25.91px);
+  left: 2%;
+  width: 196.9px;
+  height: 55.66px;
+  text-align: left;
+  font-size: 30px;
+  color: #024f4f;
+  font-weight: 900;
+}
+.misin,
+.visin {
+  top: calc(54% - 221.22px);
+  left: 975px;
+  width: 126.3px;
+}
+.misin {
+  top: calc(51% - 408.44px);
+  width: 149.17px;
+}
+.informacion {
+  position: absolute;
+  width: 1920px;
+  top: 1200px;
+  height: 946px;
+  z-index: 6;
+  text-align: justify;
+  font-size: var(--font-size-lg);
+  color: var(--color-black);
+  font-family: var(--font-montserrat-alternates);
+  font-weight: 350;
+  margin-left: 50px;
+  margin-right: 50px;
+}

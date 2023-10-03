@@ -1,0 +1,148 @@
+.concenos,
+.titulo-icon {
+  flex: 1;
+  position: relative;
+}
+.titulo-icon {
+  max-width: 100%;
+  overflow: hidden;
+  height: 47.69px;
+}
+.concenos {
+  line-height: 130%;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.frame {
+  width: 1920px;
+}
+
+.s1-icon {
+  width: 1920px;
+}
+
+.banca-en-linea {
+  height: 65.15%;
+  top: 16.67%;
+  left: 0;
+  font-size: 35px;
+  line-height: 130%;
+  font-weight: 500;
+  font-family: var(--font-montserrat-alternates);
+  color: var(--color-white);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.b1 {
+  position: absolute;
+  bottom: -200px;
+  left: 66px;
+  box-shadow: 6px 2px 5px rgba(0, 0, 0, 0.25);
+  width: 314px;
+  height: 104px;
+  opacity: 1;
+  background-color: #056061;
+  border-radius: 12px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 30px;
+  font-family: "Montserrat Alternates";
+  color: #fff;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.scroll {
+  position: relative;
+  width: 1920px;
+  height: 700px;
+  z-index: 1;
+}
+
+.fondo-icon {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+
+.flecha-icon,
+.sitio-web-institucional-child {
+  position: absolute;
+  margin: 0 !important;
+  max-width: 1920px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.flecha-icon {
+  width: calc(100% - 1267.2px);
+  top: 2926px;
+  right: 253.2px;
+  left: 1014px;
+  height: 48.8px;
+  z-index: 7;
+}
+
+.sitio-web-institucional {
+  display: flex;
+  width: 1920px;
+  position: relative;
+  flex-direction: column;
+  height: 100vh;
+  align-items: center;
+  background-image: url(/src/images/fondo@2x.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  z-index: 0;
+}
+
+.header-insti h2 {
+  font-weight: 600;
+  cursor: pointer;
+  color: var(--verde-oscuro);
+  margin: 0 10px;
+}
+
+.cont-logo {
+  justify-content: flex-start;
+  padding-left: 30px;
+}
+
+.cont-logo > img {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  top: -10px;
+}
+
+.cont-op {
+  display: flex;
+  position: relative;
+  justify-content: flex-end;
+  padding-right: 30px;
+}
+
+.header-insti {
+  display: flex;
+  width: 1920px;
+  height: 80px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+  z-index: 2;
+  justify-content: space-between;
+  align-items: center;
+}

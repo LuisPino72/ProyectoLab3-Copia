@@ -1,0 +1,178 @@
+.instagram-1 {
+  top: 0;
+  left: 1339px;
+  width: 27px;
+  height: 17.44px;
+}
+.cont-cont {
+  left: 50px;
+}
+.contacto-child {
+  position: absolute;
+  top: 146px;
+  background-image: linear-gradient(to bottom, #066162, #2d7e82);
+  width: 1920px;
+  height: 450px;
+}
+.contacto1,
+.correo2,
+.fax,
+.technebog-ca,
+.telfono1 {
+  position: absolute;
+  line-height: 130%;
+  display: flex;
+  align-items: center;
+}
+.contacto1 {
+  top: 166px;
+  font-size: 60px;
+  font-weight: 500;
+  justify-content: center;
+  position: relative;
+  left: 320px;
+}
+.correo2,
+.fax,
+.technebog-ca,
+.telfono1 {
+  top: 432.54px;
+  left: 1362px;
+  text-align: left;
+  height: 30.94px;
+}
+.correo2,
+.fax,
+.telfono1 {
+  top: 262.36px;
+  left: 810px;
+  width: 450px;
+}
+.fax,
+.telfono1 {
+  top: 368px;
+  left: 810px;
+  width: 450px;
+}
+.telfono1 {
+  top: 316px;
+  left: 810px;
+  width: 450 px;
+}
+.facebook,
+.twitter {
+  left: 1400px;
+  justify-content: center;
+  width: 332.63px;
+  height: 36.47px;
+}
+.twitter {
+  position: absolute;
+  top: 264.07px;
+  line-height: 130%;
+  display: flex;
+  align-items: center;
+  padding-left: 50px;
+}
+.facebook {
+  top: 316px;
+  padding-left: 50px;
+}
+.direccin1,
+.facebook,
+.instargam {
+  position: absolute;
+  line-height: 130%;
+  display: flex;
+  align-items: center;
+}
+.instargam {
+  top: 364.62px;
+  left: 1400px;
+  justify-content: center;
+  width: 332.63px;
+  height: 36.47px;
+  padding-left: 50px;
+}
+.direccin1 {
+  top: 415px;
+  left: 810px;
+  text-align: left;
+  width: 470px;
+}
+
+.twitter-1-icon {
+  position: absolute;
+  left: 1350px;
+  width: 30px;
+  top: 65%;
+  bottom: 29.7%;
+  overflow: hidden;
+}
+
+.fax-1-icon,
+.marcador-1-icon {
+  position: absolute;
+  top: 366.24px;
+  left: 750px;
+  width: 32px;
+  overflow: hidden;
+}
+.marcador-1-icon {
+  top: 455px;
+  left: 750px;
+  width: 34px;
+}
+.facebook-icon,
+.llamada-telefonica-1-icon,
+.sobre-1-icon {
+  position: absolute;
+  top: 270px;
+  left: 750px;
+  width: 32px;
+  overflow: hidden;
+}
+.facebook-icon,
+.llamada-telefonica-1-icon {
+  top: 318.72px;
+}
+.facebook-icon {
+  width: 32px;
+  top: 55.42%;
+  bottom: 40.89%;
+  left: 70.4%;
+}
+.logo-icon9 {
+  position: relative;
+  width: 650px;
+}
+.logo-en-contacto {
+  display: flex;
+}
+
+.logo-en-contacto {
+  position: relative;
+  top: 220px;
+  left: 50px;
+}
+.group-icon1 {
+  position: absolute;
+  width: 30px;
+  top: 75.8%;
+  bottom: 18.59%;
+  left: 70.5%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.contacto {
+  position: absolute;
+  top: 3300px;
+  width: 1920px;
+  height: 490px;
+  font-weight: 500;
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  font-family: var(--font-montserrat-alternates);
+}

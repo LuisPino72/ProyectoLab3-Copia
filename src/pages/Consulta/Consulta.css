@@ -1,0 +1,207 @@
+.wrapper-Consultas {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  max-width: 1920px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.container-Consulta{
+  background-image: url(/src/images/FondoBanco.jpg);
+  background-size: 1920px, 1080px;
+}
+
+.UsuarioC-wrapper {
+  display: flex;
+  padding: 2rem 2rem 0 2rem;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.usuario-Consultas {
+  color: #000;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 25px;
+}
+
+.usuario-Consultas2 {
+  color: #000;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 25px;
+}
+
+
+.usuario-Consultas > span {
+  font-weight: 700;
+}
+
+.actualizar-Consultas {
+  position: relative;
+  margin: 0 auto;
+  top: 50px;
+  flex-wrap: wrap;
+  max-width: 934px;
+  height: 411px;
+  width: 95%;
+  background-color: #fff;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.4);
+  border-radius: 12px;
+}
+
+.title-Consultas {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+  color: #056061;
+  text-align: center;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  padding-bottom: 30px;
+}
+
+.subtitle-Consultas {
+  font-family: "Montserrat Alternates";
+  display: flex;
+  padding-left: 55px;
+  color: #000;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  padding-bottom: 15px;
+}
+
+.item-Consultas,
+.item-Consultas2 {
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  font-weight: bold;
+  position: relative;
+  background-color: transparent;
+  color: white;
+  height: 40.5px;
+}
+
+.item-Consultas input,
+.item-Consultas2 input {
+  border: none;
+  border-bottom: 1px solid white;
+}
+
+.infomacion-Consultas {
+  font-family: "Montserrat Alternates";
+  color: black;
+  display: flex;
+  position: relative;
+  flex-wrap: wrap;
+  max-width: 400px;
+  margin: 0 auto;
+  height: 40px;
+  text-align: center;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 130%;
+  top: 100px;
+}
+
+.edna1,
+.edna2 {
+  position: relative;
+  gap: 0.5rem;
+  background-color: var(--verde-oscuro);
+  border-radius: 5px;
+  height: 40.5px;
+  left: 52px;
+  width: 830px;
+}
+
+.jejs {
+  position: relative;
+  display: inline-flexbox;
+  flex-direction: column;
+  max-width: 1366px;
+  max-height: 49px;
+  height: 60px;
+  width: 100%;
+  padding-left: 380px;
+}
+
+.button-procesarBusqueda {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 45px;
+  background-color: #056061;
+  border-radius: 12px;
+}
+
+.button-procesarBusqueda > button {
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 130%;
+  all: unset;
+  color: #fff;
+}
+
+.button-procesarBusqueda:hover {
+  background-color: #024f4f;
+}
+
+.atras {
+  font-family: "Montserrat Alternates";
+  display: flex;
+  padding-left: 55px;
+  padding-top: 15px;
+  color: #000;
+  text-align: center;
+  font-size: 12px;
+  font-style: normal;
+  margin-bottom: 35px;
+}
+
+.actual {
+  font-family: "Montserrat Alternates";
+  display: flex;
+  padding-left: 55px;
+  padding-top: 15px;
+  color: #000;
+  text-align: center;
+  font-size: 12px;
+  font-style: normal;
+  margin-bottom: 35px;
+}
+
+input[placeholder="atras"] {
+  color: white;
+  font-family: "Montserrat Alternates";
+  font-size: 13px;
+}
+
+input[placeholder="actual"] {
+  color: white;
+  font-family: "Montserrat Alternates";
+  font-size: 13px;
+}
+
+input[type="date"] {
+  background-color: transparent;
+  color: white;
+  border: none;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+  filter: invert(1);
+}
